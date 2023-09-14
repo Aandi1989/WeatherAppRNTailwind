@@ -24,7 +24,7 @@ import { storeData, getData} from '../utils/asyncStorage';
 
 export default function HomeScreen() {
   const [showSearch, toggleSearch] = useState(false);
-  const [locations, setLocations] = useState([1, 2, 3]);
+  const [locations, setLocations] = useState([]);
   const [weather, setWeather] = useState({});
   const [loading, setLoading] = useState(true);
 
